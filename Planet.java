@@ -1,9 +1,9 @@
 class Planet{
     void revolve(){
-             System.out.println("Revolve");
+             System.out.println("Rotate");
     }
    public static void main(String[] args){
-        Planet earth = new Planet();
+        Planet venus = new Planet();
         earth.revolve();
    }
 }
